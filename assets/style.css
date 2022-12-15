@@ -5,6 +5,7 @@
 
 body {
     text-align: center;
+    background-color: pink;
 }
 
 li {
@@ -25,10 +26,14 @@ header {
     font-size: 30px;
     Color: Green;
     font-weight: bold;
+    margin-top: 10px;
+
 }
 
 figcaption { 
     color: green;
+    margin-bottom: 10px;
+    font-weight: 8px;
 }
 
 form {
@@ -36,9 +41,22 @@ form {
     background-color: brown;
     padding: 50px;
 }
-img {
-    margin: auto;
+
+div {
+    border: 10px double green;
 }
+
+img {
+    margin: 20px auto;
+
+}
+form p {
+    margin: 3px;
+}
+button {
+     margin-top: 10px;
+}
+
 footer {
     background-color: blueviolet;
     padding: 20px;
