@@ -3,14 +3,43 @@
     padding: 0;
 }
 
+body {
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    float: right;
+    font-size: 20px;
+}
+
 header {
     background-color: blueviolet;
+    padding: 30px;
 }
 
-.form-section {
+.title {
+    font-size: 30px;
+    Color: Green;
+    font-weight: bold;
+}
+
+figcaption { 
+    color: green;
+}
+
+form {
+    display: block;
     background-color: brown;
+    padding: 50px;
 }
-
+img {
+    margin: auto;
+}
 footer {
     background-color: blueviolet;
+    padding: 20px;
 }
